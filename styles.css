@@ -1,4 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo&display=swap');
+
 .topnav {
-	background-color: grey;
+	background-color: rgb(61, 61, 61);
 	overflow: hidden;
+}
+
+.topnav a {
+	font-size: 25px;
+	color: white;
+	float: left;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-family: "baloo";
+}
+
+.topnav a:hover {
+	background-color: rgb(200, 200, 200);
+	color: black;
+}
+
+.topnav a.active {
+	background-color: rgb(200, 200, 200);
+	color: black;
 }
