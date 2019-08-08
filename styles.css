@@ -2,18 +2,24 @@
 
 /* Navigation Bar */
 .topnav {
-	background-color: rgb(61, 61, 61);
+	background-color: #ad2c23;
 	overflow: hidden;
+	font-family: "baloo";
+}
+
+.topnav h1 {
+	color: white;
+	padding-left: 20px;
+	font-size: 45px;
 }
 
 .topnav a {
 	font-size: 25px;
-	color: white;
 	float: left;
 	text-align: center;
 	padding: 15px;
 	text-decoration: none;
-	font-family: "baloo";
+	color: white;
 }
 
 .topnav a:hover {
