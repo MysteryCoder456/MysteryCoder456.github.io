@@ -1,23 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo|Comfortaa:700|Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Passion+One|Press+Start+2P|Share+Tech+Mono|Baloo&display=swap');
+
 
 /* Navigation Bar */
 .topnav {
 	background-color: #ad2c23;
 	overflow: hidden;
-	font-family: "baloo";
+	font-family: "press start 2p";
 }
 
 .topnav h1 {
 	color: white;
 	padding-left: 15px;
-	font-size: 37px;
+	font-size: 40px;
 }
 
 .topnav a {
 	font-size: 25px;
 	float: left;
 	text-align: center;
-	padding: 15px;
+	padding: 20px;
 	text-decoration: none;
 	color: white;
 }
@@ -33,17 +34,28 @@
 }
 
 
-/* Title */
+/* Title and subtitle */
 .title {
 	text-align: center;
 	font-family: "comfortaa";
 	font-size: 50px;
 }
 
-
-/* Subtitle */
 .subtitle {
 	font-family: "passion one";
 	font-size: 32px;
 	text-align: center;
+}
+
+
+/* Main Body */
+.main-body {
+	font-family: "baloo";
+	font-size: 25px;
+}
+
+.main-body a {
+	text-decoration-line: none;
+	color: #000000;
+	font-family: "Share tech mono";
 }
