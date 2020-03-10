@@ -51,11 +51,23 @@
 /* Main Body */
 .main-body {
 	font-family: "baloo";
-	font-size: 25px;
+    font-size: 25px;
+    padding: 8px;
 }
 
 .main-body a {
 	text-decoration-line: none;
 	color: #000000;
 	font-family: "Share tech mono";
+}
+
+.project {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.17);
+    text-align: center;
+}
+
+.project img {
+    width: 603px;
+    height: 383px;
 }
