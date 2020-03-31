@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Passion+One|Press+Start+2P|Share+Tech+Mono|Baloo&display=swap');
 
-
 /* Navigation Bar */
 .topnav {
 	background-color: #ad2c23;
@@ -60,6 +59,8 @@
 	color: #000000;
 	font-family: "Share tech mono";
 }
+
+/* Projects */
 
 .project {
     padding: 5px;
