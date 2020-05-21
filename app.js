@@ -1,16 +1,34 @@
-var darkMode = false;
+var darkMode = true;
+
+function switchToDark() {
+    var body = document.querySelector("body");
+    body.bgColor = "#252526";
+    body.style.color = "white";
+}
+
+function switchToLight() {
+    var body = document.querySelector("body");
+    body.bgColor = "white";
+    body.style.color = "black";
+}
 
 function switchAppearance() {
     var body = document.querySelector("body");
 
     if (!darkMode) {
-        body.bgColor = "#252526";
-        body.style.color = "white";
         darkMode = true;
+        switchToDark();
     } else {
-        body.bgColor = "white";
-        body.style.color = "black";
         darkMode = false;
+        switchToLight();
+    }
+}
+
+window.onload = function () {
+    if (darkMode) {
+        switchToDark();
+    } else {
+        switchToLight();
     }
 }
 
