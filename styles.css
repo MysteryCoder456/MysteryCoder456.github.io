@@ -23,8 +23,8 @@
 }
 
 .topnav a:hover {
-	background-color: rgb(201, 199, 199);
-	color: black;
+	background-color: #585858;
+	/* color: black; */
 }
 
 .topnav a.active {
