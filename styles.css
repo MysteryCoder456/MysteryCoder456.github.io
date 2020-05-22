@@ -32,6 +32,19 @@
 	color: black;
 }
 
+#darkModeButton {
+    float: right;
+    padding-right: 30px;
+    margin: 0 auto;
+}
+
+#darkModeButton button {
+    font-family: "press start 2p";
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
 
 /* Title and subtitle */
 .title {
@@ -56,7 +69,6 @@
 
 .main-body a {
 	text-decoration-line: none;
-	color: #000000;
 	font-family: "Share tech mono";
 }
 
