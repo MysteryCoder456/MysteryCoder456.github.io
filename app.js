@@ -4,12 +4,20 @@ function switchToDark() {
     var body = document.querySelector("body");
     body.bgColor = "#252526";
     body.style.color = "white";
+
+    var active = document.querySelector(".active");
+    active.style.backgroundColor = "#252526";
+    active.style.color = "white";
 }
 
 function switchToLight() {
     var body = document.querySelector("body");
     body.bgColor = "white";
     body.style.color = "black";
+
+    var active = document.querySelector(".active");
+    active.style.backgroundColor = "white";
+    active.style.color = "black";
 }
 
 function switchAppearance() {
