@@ -22,9 +22,13 @@ function switchAppearance() {
         darkMode = false;
         switchToLight();
     }
+
+    localStorage.setItem("darkMode", darkMode);
 }
 
 window.onload = function () {
+    darkMode = (localStorage.getItem("darkMode") === "true");
+
     if (darkMode) {
         switchToDark();
     } else {
@@ -32,4 +36,4 @@ window.onload = function () {
     }
 }
 
-document.getElementById("darkModeButton").addEventListener("click", switchAppearance);
+document.querySelector("#darkModeButton").addEventListener("click", switchAppearance);
